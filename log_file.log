@@ -1,90 +1,90 @@
-2025-01-29 17:20:36.016 DEBUG ic| x: 10, y: 20
-2025-01-29 17:20:36.016 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 17:20:36.016
-2025-01-29 17:20:36.016 WARNING ic| 10, 'hello', x: 10
-2025-01-29 17:20:36.017 ERROR ic| x: 10
-2025-01-29 17:20:36.017 ERROR     x**2: 100
-2025-01-29 17:20:36.017 ERROR     x/2: 5.0
-2025-01-29 17:20:36.017 ERROR     str: ('this is a very long string '
-2025-01-29 17:20:36.017 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
-2025-01-29 17:20:36.018 CRITICAL ic| 'oops', x + y: 30
-2025-01-29 17:20:36.118 DEBUG ic| x: 10, y: 20
-2025-01-29 17:20:36.119 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 17:20:36.119
-2025-01-29 17:20:36.119 WARNING ic| 10, 'hello', x: 10
-2025-01-29 17:20:36.120 ERROR ic| x: 10
-2025-01-29 17:20:36.120 ERROR     x**2: 100
-2025-01-29 17:20:36.120 ERROR     x/2: 5.0
-2025-01-29 17:20:36.120 ERROR     str: ('this is a very long string '
-2025-01-29 17:20:36.120 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
-2025-01-29 17:20:36.120 CRITICAL ic| 'oops', x + y: 30
-2025-01-29 17:20:36.223 DEBUG ic| x: 10, y: 20
-2025-01-29 17:20:36.223 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 17:20:36.223
-2025-01-29 17:20:36.224 WARNING ic| 10, 'hello', x: 10
-2025-01-29 17:20:36.224 ERROR ic| x: 10
-2025-01-29 17:20:36.224 ERROR     x**2: 100
-2025-01-29 17:20:36.224 ERROR     x/2: 5.0
-2025-01-29 17:20:36.224 ERROR     str: ('this is a very long string '
-2025-01-29 17:20:36.224 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
-2025-01-29 17:20:36.225 CRITICAL ic| 'oops', x + y: 30
-2025-01-29 17:20:36.329 DEBUG ic| x: 10, y: 20
-2025-01-29 17:20:36.330 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 17:20:36.330
-2025-01-29 17:20:36.330 WARNING ic| 10, 'hello', x: 10
-2025-01-29 17:20:36.330 ERROR ic| x: 10
-2025-01-29 17:20:36.331 ERROR     x**2: 100
-2025-01-29 17:20:36.331 ERROR     x/2: 5.0
-2025-01-29 17:20:36.331 ERROR     str: ('this is a very long string '
-2025-01-29 17:20:36.331 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
-2025-01-29 17:20:36.331 CRITICAL ic| 'oops', x + y: 30
-2025-01-29 17:20:36.436 DEBUG ic| x: 10, y: 20
-2025-01-29 17:20:36.436 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 17:20:36.436
-2025-01-29 17:20:36.437 WARNING ic| 10, 'hello', x: 10
-2025-01-29 17:20:36.437 ERROR ic| x: 10
-2025-01-29 17:20:36.437 ERROR     x**2: 100
-2025-01-29 17:20:36.437 ERROR     x/2: 5.0
-2025-01-29 17:20:36.437 ERROR     str: ('this is a very long string '
-2025-01-29 17:20:36.437 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
-2025-01-29 17:20:36.437 CRITICAL ic| 'oops', x + y: 30
-2025-01-29 17:20:36.542 DEBUG ic| x: 10, y: 20
-2025-01-29 17:20:36.542 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 17:20:36.542
-2025-01-29 17:20:36.542 WARNING ic| 10, 'hello', x: 10
-2025-01-29 17:20:36.543 ERROR ic| x: 10
-2025-01-29 17:20:36.543 ERROR     x**2: 100
-2025-01-29 17:20:36.543 ERROR     x/2: 5.0
-2025-01-29 17:20:36.543 ERROR     str: ('this is a very long string '
-2025-01-29 17:20:36.543 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
-2025-01-29 17:20:36.543 CRITICAL ic| 'oops', x + y: 30
-2025-01-29 17:20:36.645 DEBUG ic| x: 10, y: 20
-2025-01-29 17:20:36.645 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 17:20:36.645
-2025-01-29 17:20:36.646 WARNING ic| 10, 'hello', x: 10
-2025-01-29 17:20:36.646 ERROR ic| x: 10
-2025-01-29 17:20:36.646 ERROR     x**2: 100
-2025-01-29 17:20:36.646 ERROR     x/2: 5.0
-2025-01-29 17:20:36.646 ERROR     str: ('this is a very long string '
-2025-01-29 17:20:36.646 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
-2025-01-29 17:20:36.646 CRITICAL ic| 'oops', x + y: 30
-2025-01-29 17:20:36.750 DEBUG ic| x: 10, y: 20
-2025-01-29 17:20:36.750 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 17:20:36.750
-2025-01-29 17:20:36.750 WARNING ic| 10, 'hello', x: 10
-2025-01-29 17:20:36.750 ERROR ic| x: 10
-2025-01-29 17:20:36.750 ERROR     x**2: 100
-2025-01-29 17:20:36.750 ERROR     x/2: 5.0
-2025-01-29 17:20:36.751 ERROR     str: ('this is a very long string '
-2025-01-29 17:20:36.751 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
-2025-01-29 17:20:36.751 CRITICAL ic| 'oops', x + y: 30
-2025-01-29 17:20:36.855 DEBUG ic| x: 10, y: 20
-2025-01-29 17:20:36.855 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 17:20:36.855
-2025-01-29 17:20:36.856 WARNING ic| 10, 'hello', x: 10
-2025-01-29 17:20:36.856 ERROR ic| x: 10
-2025-01-29 17:20:36.856 ERROR     x**2: 100
-2025-01-29 17:20:36.856 ERROR     x/2: 5.0
-2025-01-29 17:20:36.856 ERROR     str: ('this is a very long string '
-2025-01-29 17:20:36.856 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
-2025-01-29 17:20:36.856 CRITICAL ic| 'oops', x + y: 30
-2025-01-29 17:20:36.959 DEBUG ic| x: 10, y: 20
-2025-01-29 17:20:36.959 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 17:20:36.959
-2025-01-29 17:20:36.960 WARNING ic| 10, 'hello', x: 10
-2025-01-29 17:20:36.960 ERROR ic| x: 10
-2025-01-29 17:20:36.960 ERROR     x**2: 100
-2025-01-29 17:20:36.960 ERROR     x/2: 5.0
-2025-01-29 17:20:36.960 ERROR     str: ('this is a very long string '
-2025-01-29 17:20:36.960 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
-2025-01-29 17:20:36.961 CRITICAL ic| 'oops', x + y: 30
+2025-01-29 19:00:58.293 DEBUG ic| x: 10, y: 20
+2025-01-29 19:00:58.293 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 19:00:58.293
+2025-01-29 19:00:58.294 WARNING ic| 10, 'hello', x: 10
+2025-01-29 19:00:58.295 ERROR ic| x: 10
+2025-01-29 19:00:58.295 ERROR     x**2: 100
+2025-01-29 19:00:58.295 ERROR     x/2: 5.0
+2025-01-29 19:00:58.295 ERROR     str: ('this is a very long string '
+2025-01-29 19:00:58.295 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+2025-01-29 19:00:58.296 CRITICAL ic| 'oops', x + y: 30
+2025-01-29 19:00:58.399 DEBUG ic| x: 10, y: 20
+2025-01-29 19:00:58.399 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 19:00:58.399
+2025-01-29 19:00:58.399 WARNING ic| 10, 'hello', x: 10
+2025-01-29 19:00:58.399 ERROR ic| x: 10
+2025-01-29 19:00:58.399 ERROR     x**2: 100
+2025-01-29 19:00:58.399 ERROR     x/2: 5.0
+2025-01-29 19:00:58.399 ERROR     str: ('this is a very long string '
+2025-01-29 19:00:58.399 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+2025-01-29 19:00:58.400 CRITICAL ic| 'oops', x + y: 30
+2025-01-29 19:00:58.504 DEBUG ic| x: 10, y: 20
+2025-01-29 19:00:58.504 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 19:00:58.504
+2025-01-29 19:00:58.504 WARNING ic| 10, 'hello', x: 10
+2025-01-29 19:00:58.504 ERROR ic| x: 10
+2025-01-29 19:00:58.504 ERROR     x**2: 100
+2025-01-29 19:00:58.505 ERROR     x/2: 5.0
+2025-01-29 19:00:58.505 ERROR     str: ('this is a very long string '
+2025-01-29 19:00:58.505 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+2025-01-29 19:00:58.505 CRITICAL ic| 'oops', x + y: 30
+2025-01-29 19:00:58.609 DEBUG ic| x: 10, y: 20
+2025-01-29 19:00:58.610 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 19:00:58.610
+2025-01-29 19:00:58.610 WARNING ic| 10, 'hello', x: 10
+2025-01-29 19:00:58.611 ERROR ic| x: 10
+2025-01-29 19:00:58.611 ERROR     x**2: 100
+2025-01-29 19:00:58.611 ERROR     x/2: 5.0
+2025-01-29 19:00:58.611 ERROR     str: ('this is a very long string '
+2025-01-29 19:00:58.611 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+2025-01-29 19:00:58.611 CRITICAL ic| 'oops', x + y: 30
+2025-01-29 19:00:58.716 DEBUG ic| x: 10, y: 20
+2025-01-29 19:00:58.716 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 19:00:58.716
+2025-01-29 19:00:58.716 WARNING ic| 10, 'hello', x: 10
+2025-01-29 19:00:58.716 ERROR ic| x: 10
+2025-01-29 19:00:58.716 ERROR     x**2: 100
+2025-01-29 19:00:58.716 ERROR     x/2: 5.0
+2025-01-29 19:00:58.716 ERROR     str: ('this is a very long string '
+2025-01-29 19:00:58.717 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+2025-01-29 19:00:58.717 CRITICAL ic| 'oops', x + y: 30
+2025-01-29 19:00:58.817 DEBUG ic| x: 10, y: 20
+2025-01-29 19:00:58.817 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 19:00:58.817
+2025-01-29 19:00:58.818 WARNING ic| 10, 'hello', x: 10
+2025-01-29 19:00:58.818 ERROR ic| x: 10
+2025-01-29 19:00:58.818 ERROR     x**2: 100
+2025-01-29 19:00:58.818 ERROR     x/2: 5.0
+2025-01-29 19:00:58.818 ERROR     str: ('this is a very long string '
+2025-01-29 19:00:58.818 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+2025-01-29 19:00:58.818 CRITICAL ic| 'oops', x + y: 30
+2025-01-29 19:00:58.922 DEBUG ic| x: 10, y: 20
+2025-01-29 19:00:58.923 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 19:00:58.923
+2025-01-29 19:00:58.923 WARNING ic| 10, 'hello', x: 10
+2025-01-29 19:00:58.923 ERROR ic| x: 10
+2025-01-29 19:00:58.924 ERROR     x**2: 100
+2025-01-29 19:00:58.924 ERROR     x/2: 5.0
+2025-01-29 19:00:58.924 ERROR     str: ('this is a very long string '
+2025-01-29 19:00:58.924 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+2025-01-29 19:00:58.924 CRITICAL ic| 'oops', x + y: 30
+2025-01-29 19:00:59.025 DEBUG ic| x: 10, y: 20
+2025-01-29 19:00:59.025 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 19:00:59.025
+2025-01-29 19:00:59.025 WARNING ic| 10, 'hello', x: 10
+2025-01-29 19:00:59.025 ERROR ic| x: 10
+2025-01-29 19:00:59.025 ERROR     x**2: 100
+2025-01-29 19:00:59.025 ERROR     x/2: 5.0
+2025-01-29 19:00:59.025 ERROR     str: ('this is a very long string '
+2025-01-29 19:00:59.025 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+2025-01-29 19:00:59.026 CRITICAL ic| 'oops', x + y: 30
+2025-01-29 19:00:59.131 DEBUG ic| x: 10, y: 20
+2025-01-29 19:00:59.132 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 19:00:59.132
+2025-01-29 19:00:59.132 WARNING ic| 10, 'hello', x: 10
+2025-01-29 19:00:59.133 ERROR ic| x: 10
+2025-01-29 19:00:59.133 ERROR     x**2: 100
+2025-01-29 19:00:59.133 ERROR     x/2: 5.0
+2025-01-29 19:00:59.133 ERROR     str: ('this is a very long string '
+2025-01-29 19:00:59.133 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+2025-01-29 19:00:59.133 CRITICAL ic| 'oops', x + y: 30
+2025-01-29 19:00:59.234 DEBUG ic| x: 10, y: 20
+2025-01-29 19:00:59.234 INFO ic| ic_variants_with_log_levels.py:54 in <module> at 19:00:59.234
+2025-01-29 19:00:59.235 WARNING ic| 10, 'hello', x: 10
+2025-01-29 19:00:59.235 ERROR ic| x: 10
+2025-01-29 19:00:59.235 ERROR     x**2: 100
+2025-01-29 19:00:59.235 ERROR     x/2: 5.0
+2025-01-29 19:00:59.235 ERROR     str: ('this is a very long string '
+2025-01-29 19:00:59.235 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+2025-01-29 19:00:59.235 CRITICAL ic| 'oops', x + y: 30

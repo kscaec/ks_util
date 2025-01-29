@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.DEBUG,
                     datefmt='%Y-%m-%d %H:%M:%S')
 
 # Create a file handler and set the logging level.
-# 'w' mode will overwrite the logile at every run.
+# 'w' mode will overwrite the logfile at every run.
 file_handler = logging.FileHandler('../log_file.log', mode='w')
 file_handler.setLevel(logging.DEBUG)
 
