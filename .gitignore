@@ -1,4 +1,8 @@
-.DS_Store
-.idea/shelf/
-.idea/vcs.xml
-.idea/workspace.xml
+.idea/
+*.log
+*.pyc
+__pycache__/
+*.egg-info/
+Original files/
+venv/
+log_file.log
