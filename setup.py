@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='ks_util',
-    version='1.0',
+    version='1.1.0',
     packages=['ks_util'],
     author='kscaec',
     author_email='kris@pt.lu',
