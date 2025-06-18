@@ -10,7 +10,7 @@ setup(
     long_description=open('README.md').read(),
     url='https://github.com/kscaec/ks_util',
     license='MIT',
-    install_requires=[],
+    install_requires=['icecream>=2.1.4'],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
