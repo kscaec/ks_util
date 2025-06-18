@@ -1,52 +1,78 @@
-# Various utility functions
+# ks_util - Enhanced Logging Utilities
 
-At this stage the following functions are implemented:
-- ic_variants_with_log_levels
+A collection of utility functions with a focus on enhanced logging capabilities.
 
-## ic_variants_with_log_levels
+## Features
 
-ic_variants_with_log_levels are based on icecream's ic(): https://github.com/gruns/icecream
+### ic_variants_with_log_levels
 
-The function variants add logging level capabilities to ic():
-- They prefix the ic() output with a time stamp and a logging level.
-- They write to both the console and a log file.
-- (Format and log file can be modified as desired.)
+Enhanced logging functions based on [icecream](https://github.com/gruns/icecream)'s `ic()` with additional features:
 
-The function variants are:
-- icd logs a DEBUG message.
-- ici logs an INFO message.
-- icw logs a WARNING message.
-- ice logs an ERROR message.
-- icc logs a CRITICAL message.
+- **Logging Levels**: Each function maps to a standard logging level
+- **Caller Information**: Automatically includes file, line number, and function name
+- **Clean Output**: Formatted for readability with proper indentation
+- **Dual Output**: Writes to both console and log file (`log_file.log` by default)
 
-Use the functions as you would use ic(). They internally use ic(), "as is".
-- They are not wrapper functions of ic(), as this would lose the caller's context and hence the caller's variable names.
-- Rather they add a _log method to icecream's IceCreamDebugger class to obtain logging level capabilities.
+### Available Functions
 
-The functions (use and) conform to the Python logging module's logging levels: https://docs.python.org/3/library/logging.html#logging-levels\n
+- `icd()` - DEBUG level logging
+- `ici()` - INFO level logging
+- `icw()` - WARNING level logging
+- `ice()` - ERROR level logging
+- `icc()` - CRITICAL level logging
+- `ic` - Standard icecream debug function (unchanged)
 
-The minimum logging level is set in the line "file_handler.setLevel(logging.DEBUG)".
-Replace DEBUG by whichever minimum level is preferred.
+## Installation
 
-### Examples
+```bash
+pip install -e .
+```
 
-#### INPUT
-x = 10  
-y = 20  
-str = 'this is a very long string xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'  
-icd(x, y)  # This will log a DEBUG message with the caller's variable names  
-ici()  
-icw(10, 'hello', x)  
-ice(x, x**2, x/2, str)  
-icc('oops', x + y)  
+## Usage
 
-#### OUTPUT
-2025-01-29 17:04:30.859 DEBUG ic| x: 10, y: 20  
-2025-01-29 17:04:30.860 INFO ic| ic_variants_for_log_levels.py:54 in <module> at 17:04:30.860  
-2025-01-29 17:04:30.860 WARNING ic| 10, 'hello', x: 10  
-2025-01-29 17:04:30.860 ERROR ic| x: 10  
-2025-01-29 17:04:30.860 ERROR     x**2: 100  
-2025-01-29 17:04:30.861 ERROR     x/2: 5.0  
-2025-01-29 17:04:30.861 ERROR     str: ('this is a very long string '  
-2025-01-29 17:04:30.861 ERROR           'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')  
-2025-01-29 17:04:30.861 CRITICAL ic| 'oops', x + y: 30  
+```python
+from ks_util import icd, ici, icw, ice, icc, ic
+
+def example_function():
+    x = 10
+    y = 20
+    
+    icd("Debug message", x, y)  # Debug level
+    ici("Info message")          # Info level
+    icw("Warning message")       # Warning level
+    
+    try:
+        1/0
+    except Exception as e:
+        ice("Error occurred:", e)  # Error level
+    
+    icc("Critical message")  # Critical level
+```
+
+### Example Output
+
+```
+2025-06-18 20:26:11.317 DEBUG test_logging.py:4 in test_function()
+                        ic| test_logging.py:4 in test_function() at 20:26:11.316
+2025-06-18 20:26:11.332 DEBUG test_logging.py:10 in test_function()
+                        ic| 'Debug message', x: 10, y: 20
+2025-06-18 20:26:11.332 INFO test_logging.py:11 in test_function()
+                        ic| 'Info message'
+2025-06-18 20:26:11.332 WARNING test_logging.py:12 in test_function()
+                        ic| 'Warning message'
+2025-06-18 20:26:11.333 ERROR test_logging.py:17 in test_function()
+                        ic| 'Error occurred:', e: ZeroDivisionError('division by zero')
+2025-06-18 20:26:11.333 CRITICAL test_logging.py:19 in test_function()
+                        ic| 'Critical message'
+```
+
+## Configuration
+
+- Log file location: `log_file.log` (in the current working directory)
+- Minimum log level: Set in `ic_variants_with_log_levels.py` (default: DEBUG)
+- Log format: Customizable in the `_log` method
+
+## Dependencies
+
+- Python 3.6+
+- icecream >= 2.1.4
