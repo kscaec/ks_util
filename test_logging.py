@@ -1,6 +1,8 @@
 from ks_util import icd, ici, icw, ice, icc
 
 def test_function():
+    icd()
+
     x = 10
     y = 20
     
